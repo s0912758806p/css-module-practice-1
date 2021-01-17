@@ -18,10 +18,10 @@
 </template>
 
 <script>
-    import { onMounted, reactive, toRefs } from 'vue'
+    import { reactive, toRefs } from 'vue'
     
     export default {
-        setup(props) {
+        setup() {
             const state = reactive({
                 btnList: [
                     {name: 'HOME', href: '#home'},
